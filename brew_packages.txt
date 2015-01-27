@@ -1,6 +1,7 @@
 ansible
 bash
 cmake
+colordiff
 coreutils
 curl
 ddrescue
