@@ -16,6 +16,7 @@ openssl
 sqlite
 ssh-copy-id
 testdisk
+transmission
 tree
 wget
 whereami
