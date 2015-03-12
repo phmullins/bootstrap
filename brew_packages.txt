@@ -1,17 +1,19 @@
 ansible
 bash
+brew-cask
 cmake
 colordiff
 coreutils
-curl
 ddrescue
 fish
-go
 git
+go
 hugo
 jrnl
 libyaml
+mono
 newlisp
+nmap
 openssl
 sqlite
 ssh-copy-id
@@ -20,3 +22,4 @@ transmission
 tree
 wget
 whereami
+zsh
