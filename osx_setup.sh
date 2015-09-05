@@ -97,7 +97,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 # Screen                                                                      #
 ###############################################################################
 
-# Save screenshots to the desktop
+# Save screenshots to a custom folder
 defaults write com.apple.screencapture location -string "${HOME}/Pictures/ScreenShots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
@@ -139,6 +139,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 # Disable disk image verification
 defaults write com.apple.frameworks.diskimages skip-verify -bool true
