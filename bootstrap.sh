@@ -26,6 +26,3 @@ brew install caskroom/cask/brew-cask
 # Install Ansible
 brew install ansible
 
-# Install VMware Fusion
-brew cask install vmware-fusion
-
