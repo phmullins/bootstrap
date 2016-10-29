@@ -19,6 +19,6 @@ fi
 # Install Homebrew formulae
 echo "• Installing Homebrew formulae"
 brew doctor
-for formulae in "bash" "caddy" "cmake" "colordiff" "coreutils" "git" "go" "hugo" "libyaml" "macdown" "micro" "nmap" "openssl" "pandoc" "rmlint" "shellcheck" "sqlite" "ssh-copy-id" "tailor" "testdisk" "terraform" "tree" "wget" "speedtest_cli"; do
+for formulae in "bash" "caddy" "cmake" "colordiff" "coreutils" "git" "go" "hugo" "libyaml" "macdown" "micro" "nmap" "pandoc" "rmlint" "shellcheck" "sqlite" "ssh-copy-id" "tailor" "testdisk" "terraform" "tree" "wget" "speedtest_cli"; do
   brew install "${formulae}"
 done
