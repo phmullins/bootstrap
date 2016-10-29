@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: TextEdit"
-echo "************************************************************************"
-
 echo " - TextEdit: Use plain text mode for new TextEdit documents."
 defaults write com.apple.TextEdit RichText -int 0
 
@@ -20,5 +15,3 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 echo " - TextEdit: Hide Ruler."
 defaults write com.apple.TextEdit ShowRuler 0
-
-echo "************************************************************************"

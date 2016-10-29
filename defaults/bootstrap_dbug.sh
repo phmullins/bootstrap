@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: Debug Menus"
-echo "************************************************************************"
-
 echo " - Debug: Enable the debug menu in Safari."
 defaults write com.apple.Safari IncludeInternalDebugMenu 1
 
@@ -20,5 +15,3 @@ defaults write com.apple.Safari IncludeInternalDebugMenu 1
 # echo " - Debug: Enable the debug menu in Disk Utility."
 # defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 # defaults write com.apple.DiskUtility advanced-image-options -bool true
-
-echo "************************************************************************"

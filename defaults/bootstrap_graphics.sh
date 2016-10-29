@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: Graphics UI/UX"
-echo "************************************************************************"
-
 echo " - Graphics: Disabled opening and closing window animations."
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
@@ -23,5 +18,3 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 echo " - Graphics: Disabled send and reply animations in Mail.app."
 defaults write com.apple.mail DisableReplyAnimations -bool true
 defaults write com.apple.mail DisableSendAnimations -bool true
-
-echo "************************************************************************"

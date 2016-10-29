@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: Finder"
-echo "************************************************************************"
-
 echo " - Finder: Show all filename extensions."
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
@@ -65,5 +60,3 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 echo " - Finder: Show the ~/Library folder."
 chflags nohidden ~/Library
-
-echo "************************************************************************"

@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: Spaces"
-echo "************************************************************************"
-
 echo " - Spaces: Don’t automatically rearrange Spaces based on most recent use."
 defaults write com.apple.dock mru-spaces -bool false
 
@@ -16,5 +11,3 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 
 echo " - Spaces: Group windows by application in Mission Control."
 defaults write com.apple.dock expose-group-by-app -bool true
-
-echo "************************************************************************"

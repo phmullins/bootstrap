@@ -8,7 +8,7 @@
 clear
 
 # Define variables
-DOTFILES_ROOT=$(pwd)
+BOOTSTRAP_ROOT=$(pwd)
 declare version='0.1.0'
 
 # Display version banner
@@ -16,18 +16,20 @@ echo "=================================="
 echo "macOS Bootstrap v'$version        "
 echo "=================================="
 
+# Install personal dot files
+sh "$BOOTSTRAP_ROOT/dotfiles.sh"
 # Modify macOS Defaults
-sh "$DOTFILES_ROOT/macos.sh"
+sh "$BOOTSTRAP_ROOT/macos.sh"
 # Install Homebrew Applications
-#sh "$DOTFILES_ROOT/homebrew.sh"
+sh "$BOOTSTRAP_ROOT/homebrew.sh"
 # Install Homebrew Cask Applications
-#sh "$DOTFILES_ROOT/brewcask.sh"
+sh "$BOOTSTRAP_ROOT/brewcask.sh"
 # Install Mac App Stor Applications
-#sh "$DOTFILES_ROOT/mas.sh"
+sh "$BOOTSTRAP_ROOT/mas.sh"
 
 # Install private dotfiles
 #if [[ "$USER" == "pmullins" ]]; then
-#    git clone https://github.com/pmullins/dotfiles.git
+#    git clone https://github.com/phmullins/dotfiles.git
 #    (cd /.dotfiles && ./install)
 #fi
 

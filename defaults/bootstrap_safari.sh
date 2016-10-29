@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-clear
-echo "************************************************************************"
-echo "Bootstrap: Safari"
-echo "************************************************************************"
-
 echo " - Safari: Disable DNS prefetching."
 defaults write com.apple.safari WebKitDNSPrefetchingEnabled -boolean false
 
@@ -32,5 +27,3 @@ echo " - Safari: Enable the Develop menu and the Web Inspector in Safari."
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
-
-echo "************************************************************************"
