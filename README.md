@@ -3,7 +3,7 @@
 Bootstrap is my own personal automation system designed to help quickly build and configure [macOS](https://www.apple.com/osx/) installations. It can easily be modified to work with other [*nix](https://en.wikipedia.org/wiki/Unix-like) operating systems.
 
 ## Installation
-Clone the repo with `git clone repo`
+Clone the repo with `git clone https://github.com/phmullins/bootstrap.git`
 
 ## Usage
 After cloning, simply run ./bootstrap.sh to stand up a macOS system
