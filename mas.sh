@@ -7,12 +7,12 @@
 # Check to see is MAS is installed. If not, install it.
 if [[ ! -f $(which mas) ]];
 then
-	echo "• Installing MAS."
+	echo "Bootstrap: Installing MAS."
 	brew install mas
 fi
 
 # Install Mac Appstore Applications
-echo "• Installing apps from Mac App Store"
+echo "Bootstrap: Installing apps from Mac App Store"
 
 # Sign in if not signed in
 if [[ $(mas account) == "Not signed in" ]]; then

@@ -7,17 +7,17 @@
 # Install or update Homebrew
 if [[ ! -f $(which brew) ]];
 then
-  echo "• Installing Homebrew"
+  echo "Bootstrap: Installing Homebrew"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-  echo "• Updating Homebrew"
+  echo "Bootstrap: Updating Homebrew"
   brew update
   brew upgrade --all
   brew cleanup
 fi
 
 # Install Homebrew formulae
-echo "• Installing Homebrew formulae"
+echo "Bootstrap: Installing Homebrew formulae"
 brew doctor
 for formulae in "bash" "caddy" "cmake" "colordiff" "coreutils" "git" "go" "hugo" "libyaml" "macdown" "micro" "nmap" "pandoc" "rmlint" "shellcheck" "sqlite" "ssh-copy-id" "tailor" "testdisk" "terraform" "tree" "wget" "speedtest_cli"; do
   brew install "${formulae}"

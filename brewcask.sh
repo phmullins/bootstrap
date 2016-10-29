@@ -8,11 +8,11 @@ brew doctor
 
 # Install Homebrew Cask First
 
-echo "• Installing Homebrew Cask"
+echo "Bootstrap: Installing Homebrew Cask"
 brew install caskroom/cask/brew-cask
 
 # Install applications using Homebrew Cask
-echo "• Installing Apps via Cask"
+echo "Bootstrap: Installing Apps via Cask"
 for app in "1password" "alfred" "atom" "bbedit" "carbon-copy-cloner" "coderunner" "cog" "dash" "devonthink-pro-office" "easyfind" "etrecheck" "flux" "google-chrome" "gpgtools" "jump-desktop" "kindle" "imageoptim" "iterm2" "liteicon" "marked" "metadatics" "monolingual" "omnifocus" "qlmarkdown" "qlstephen" "steam" "telegram" "the-unarchiver" "tower" "transmit" "vagrant" "vmware-fusion" "xld"; do
 	brew cask install "${app}"
 done
