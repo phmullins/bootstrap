@@ -16,6 +16,12 @@ echo "=================================="
 echo "macOS Bootstrap v'$version        "
 echo "=================================="
 
+# Install Command-line Developer Tools
+if [[ $(/usr/bin/gcc 2>&1) =~ "no developer tools were found" ]] || [[ ! -x /usr/bin/gcc ]]; then
+    echo "Bootstrap: Installing Command-line Developer Tools"
+    xcode-select --install
+fi
+
 # Install personal dot files
 sh "$BOOTSTRAP_ROOT/dotfiles.sh"
 # Modify macOS Defaults
@@ -34,4 +40,4 @@ sh "$BOOTSTRAP_ROOT/mas.sh"
 #fi
 
 # All done
-echo "All Done! Note that some of these changes require a logout/restart to take effect."
+echo "Bootstrap: All Done! Note that some of these changes require a logout/restart to take effect."
