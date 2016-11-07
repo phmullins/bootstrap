@@ -17,27 +17,21 @@ echo "macOS Bootstrap v'$version        "
 echo "=================================="
 
 # Install Command-line Developer Tools
-if [[ $(/usr/bin/gcc 2>&1) =~ "no developer tools were found" ]] || [[ ! -x /usr/bin/gcc ]]; then
+if [[ $(/usr/bin/gcc 2>&1) =~ "Bootstrap: No developer tools were found!" ]] || [[ ! -x /usr/bin/gcc ]]; then
     echo "Bootstrap: Installing Command-line Developer Tools"
     xcode-select --install
 fi
 
-# Install personal dot files
-sh "$BOOTSTRAP_ROOT/dotfiles.sh"
-# Modify macOS Defaults
-sh "$BOOTSTRAP_ROOT/macos.sh"
 # Install Homebrew Applications
-sh "$BOOTSTRAP_ROOT/homebrew.sh"
+sh "$BOOTSTRAP_ROOT/boot_homebrew.sh"
 # Install Homebrew Cask Applications
-sh "$BOOTSTRAP_ROOT/brewcask.sh"
+sh "$BOOTSTRAP_ROOT/boot_brewcask.sh"
 # Install Mac App Stor Applications
-sh "$BOOTSTRAP_ROOT/mas.sh"
-
-# Install private dotfiles
-#if [[ "$USER" == "pmullins" ]]; then
-#    git clone https://github.com/phmullins/dotfiles.git
-#    (cd /.dotfiles && ./install)
-#fi
+sh "$BOOTSTRAP_ROOT/boot_mas.sh"
+# Modify macOS Defaults
+sh "$BOOTSTRAP_ROOT/boot_macos.sh"
+# Install personal dot files
+sh "$BOOTSTRAP_ROOT/boot_dotfiles.sh"
 
 # All done
 echo "Bootstrap: All Done! Note that some of these changes require a logout/restart to take effect."
