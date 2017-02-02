@@ -1,0 +1,84 @@
+cask_args appdir: '/Applications'
+
+# Install Homebrew Applications
+brew 'ansible'
+brew 'awscli'
+brew 'bash'
+brew 'caddy'
+brew 'cmake'
+brew 'colordiff'
+brew 'coreutils'
+brew 'fdupes'
+brew 'git'
+brew 'gnu-tar'
+brew 'go'
+brew 'hugo'
+brew 'libyaml'
+brew 'mas'
+brew 'nmap'
+brew 'openssl'
+brew 'p7zip'
+brew 'packer'
+brew 'pandoc'
+brew 'pdsh'
+brew 'rmlint'
+brew 'shellcheck'
+brew 'speedtest_cli'
+brew 'sqlite'
+brew 'ssh-copy-id'
+brew 'terraform'
+brew 'testdisk'
+brew 'tree'
+brew 'wget'
+
+# Install Homebrew Cask Applications
+cask '1password'
+cask 'alfred'
+cask 'atom'
+cask 'carbon-copy-cloner'
+cask 'coderunner'
+cask 'cog'
+cask 'dash'
+cask 'devonthink-pro-office'
+cask 'easyfind'
+cask 'etrecheck'
+cask 'firefox'
+cask 'gpgtools'
+cask 'kindle'
+cask 'imageoptim'
+cask 'iterm2'
+cask 'launchrocket'
+cask 'liteicon'
+cask 'metadatics'
+cask 'monolingual'
+cask 'omnifocus'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'steam'
+cask 'telegram'
+cask 'the-unarchiver'
+cask 'tower'
+cask 'transmit'
+cask 'vagrant'
+cask 'vmware-fusion'
+cask 'xld'
+cask 'xquartz'
+
+# Install MAS Applications
+
+mas 'Memory Clean', id: 451444120
+mas 'Byword', id: 420212497
+mas 'Day One Classic', id: 422304217
+mas 'Disk Doctor', id: 455970963
+mas 'Duplicate Detective', id: 686428787
+mas 'Jump Desktop', id: 524141863
+mas 'Keynote', id: 409183694
+mas 'Tweetbot', id: 557168941
+mas 'Lingo', id: 624884154
+mas 'Marked 2', id: 890031187
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Pixave', id: 924891282
+mas 'Pixelmator', id: 407963104
+mas 'Xcode', id: 497799835
