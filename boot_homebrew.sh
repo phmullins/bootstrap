@@ -12,13 +12,12 @@ then
 else
   echo "Bootstrap: Updating Homebrew"
   brew update
-  brew upgrade --all
+  brew upgrade
   brew cleanup
+  echo "Bootstrap: Installing homebre/bundle"
+  brew tap homebrew/bundle
 fi
 
 # Install Homebrew formulae
 echo "Bootstrap: Installing Homebrew Applications"
-brew doctor
-for formulae in "bash" "caddy" "cmake" "colordiff" "coreutils" "git" "go" "hugo" "libyaml" "micro" "nmap" "pandoc" "rmlint" "shellcheck" "sqlite" "ssh-copy-id" "tailor" "testdisk" "terraform" "tree" "wget" "speedtest_cli"; do
-  brew install "${formulae}"
-done
+brew bundle
