@@ -9,7 +9,7 @@ clear
 
 # Define variables
 BOOTSTRAP_ROOT=$(pwd)
-declare version='0.1.0'
+declare version='0.2.1'
 
 # Display version banner
 echo "=================================="
@@ -24,12 +24,10 @@ fi
 
 # Install Homebrew Applications
 sh "$BOOTSTRAP_ROOT/boot_homebrew.sh"
-# Install Homebrew Cask Applications
-sh "$BOOTSTRAP_ROOT/boot_brewcask.sh"
-# Install Mac App Stor Applications
-sh "$BOOTSTRAP_ROOT/boot_mas.sh"
+
 # Modify macOS Defaults
 sh "$BOOTSTRAP_ROOT/boot_macos.sh"
+
 # Install personal dot files
 sh "$BOOTSTRAP_ROOT/boot_dotfiles.sh"
 
