@@ -51,7 +51,7 @@ cask 'omnifocus'
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen'
-cask 'steam'
+#cask 'steam'
 cask 'telegram'
 cask 'the-unarchiver'
 cask 'tower'
@@ -63,7 +63,7 @@ cask 'xquartz'
 
 # Install MAS Applications
 
-mas 'Memory Clean', id: 451444120
+#mas 'Memory Clean', id: 451444120
 mas 'Byword', id: 420212497
 mas 'Day One Classic', id: 422304217
 mas 'Disk Doctor', id: 455970963
@@ -71,7 +71,7 @@ mas 'Duplicate Detective', id: 686428787
 mas 'Jump Desktop', id: 524141863
 mas 'Keynote', id: 409183694
 mas 'Tweetbot', id: 557168941
-mas 'Lingo', id: 624884154
+#mas 'Lingo', id: 624884154
 mas 'Marked 2', id: 890031187
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
