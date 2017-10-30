@@ -4,10 +4,10 @@ cask_args appdir: '/Applications'
 brew 'ansible'
 brew 'awscli'
 brew 'bash'
-brew 'caddy'
 brew 'cmake'
 brew 'colordiff'
 brew 'coreutils'
+brew 'fd'
 brew 'fdupes'
 brew 'fzy'
 brew 'git'
@@ -31,6 +31,7 @@ brew 'terraform'
 brew 'testdisk'
 brew 'tree'
 brew 'wget'
+brew 'yarn'
 
 # Install Homebrew Cask Applications
 cask '1password'
@@ -44,6 +45,7 @@ cask 'gpgtools'
 cask 'kindle'
 cask 'imageoptim'
 cask 'iterm2'
+Cask 'keybase'
 cask 'liteicon'
 cask 'metadatics'
 cask 'monolingual'
@@ -51,7 +53,9 @@ cask 'omnifocus'
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen'
-#cask 'steam'
+cask 'slack'
+cask 'sourcetree'
+cask 'steam'
 cask 'telegram'
 cask 'the-unarchiver'
 cask 'tower'
@@ -61,14 +65,14 @@ cask 'vmware-fusion'
 cask 'visual-studio-code'
 cask 'xld'
 cask 'xquartz'
+cask 'zoomus'
 
 # Install MAS Applications
 
 #mas 'Memory Clean', id: 451444120
 mas 'Byword', id: 420212497
 mas 'Day One Classic', id: 422304217
-mas 'Disk Doctor', id: 455970963
-mas 'Duplicate Detective', id: 686428787
+mas 'Disk Aid', id: 1007358832
 mas 'Jump Desktop', id: 524141863
 mas 'Keynote', id: 409183694
 mas 'Tweetbot', id: 557168941
@@ -78,4 +82,8 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Pixave', id: 924891282
 mas 'Pixelmator', id: 407963104
+mas 'PMenu', id: 1241716354
+mas 'Reeder', id: 880001334
+mas 'TrashMe', id: 443126292
 mas 'Xcode', id: 497799835
+
