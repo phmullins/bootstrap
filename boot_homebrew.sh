@@ -14,8 +14,9 @@ else
   brew update
   brew upgrade
   brew cleanup
-  echo "Bootstrap: Installing homebre/bundle"
+  echo "Bootstrap: Installing homebrew/bundle & caskroom/fonts"
   brew tap homebrew/bundle
+  brew tap caskroom/fonts
 fi
 
 # Install Homebrew formulae
