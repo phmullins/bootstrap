@@ -15,6 +15,7 @@ else
   brew upgrade
   brew cleanup
   echo "Bootstrap: Installing homebrew/bundle & caskroom/fonts"
+  brew tap homebrew/cask
   brew tap homebrew/bundle
   brew tap caskroom/fonts
 fi
