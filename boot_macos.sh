@@ -31,7 +31,7 @@ sh "defaults/bootstrap_trackpad.sh"
 
 # Restart applications and services
 for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" \
-        "Messages" "Safari" "SystemUIServer" "Terminal" "SystemUIServer" \
+        "Messages" "Safari" "SystemUIServer" "Terminal" \
         "iCal"; do
         killall "${app}" > /dev/null 2>&1
 done

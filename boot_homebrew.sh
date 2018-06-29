@@ -18,6 +18,7 @@ else
   brew tap homebrew/cask
   brew tap homebrew/bundle
   brew tap caskroom/fonts
+  brew tap homebrew/services
 fi
 
 # Install Homebrew formulae
