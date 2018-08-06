@@ -18,12 +18,14 @@ brew 'go'
 brew 'hugo'
 brew 'libyaml'
 brew 'mas'
+brew 'ncdu'
 #brew 'nnn'
 brew 'nmap'
 brew 'openssl'
 brew 'p7zip'
 brew 'packer'
 #brew 'pandoc'
+brew 'proselint'
 brew 'rmlint'
 brew 'ruby'
 brew 'shellcheck'
@@ -96,4 +98,17 @@ mas 'Pixelmator', id: 407963104
 mas 'PMenu', id: 1241716354
 mas 'Reeder', id: 880001334
 mas 'TrashMe', id: 443126292
+mas 'iA Writer', id: 775737590
+mas 'Spect', id: 1409975750
+mas 'BitPerfect', id: 455545700
+mas 'Jump Desktop', id: 524141863
+mas 'GarageBand', id: 682658836
+mas 'WiFi Explorer', id: 494803304
+mas 'Marked 2', id: 890031187
+mas 'Tweetbot', id: 557168941
+mas 'Sugarmate Glance', id: 1207352056
+mas 'iMovie', id: 408981434
+mas 'Day One', id: 1055511498
 #mas 'Xcode', id: 497799835
+
+
