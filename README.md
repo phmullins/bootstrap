@@ -18,7 +18,9 @@ You'll probably want to edit the `brewfile` as I'm sure you don't want everythin
 to stand up a custom macOS system.
 
 ## Author
+
 Created by [Patrick H. Mullins](http://www.pmullins.net/aboutme/). You can find me on  [Twitter](https://twitter.com/phmullins) and on [Telegram](https://telegram.org/) as @pmullins.
 
 ## License
+
 Source is released under the Mozilla Public [license](license.md) Version 2.0.
