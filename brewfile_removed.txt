@@ -1,0 +1,3 @@
+cask 'flume'
+cask 'soda-player'
+cask 'xit'
