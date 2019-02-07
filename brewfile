@@ -2,14 +2,13 @@ cask_args appdir: '/Applications'
 
 # Install Homebrew Applications
 brew 'ansible'
-#brew 'arping'
-#brew 'awscli'
 brew 'bash'
 brew 'bat'
 brew 'cmake'
 brew 'colordiff'
 brew 'coreutils'
 brew 'docker-compose'
+brew 'balenaetcher'
 brew 'fd'
 brew 'fdupes'
 brew 'fzy'
@@ -46,7 +45,6 @@ cask '1password'
 cask 'alfred'
 cask 'arq'
 cask 'arq-cloud-backup'
-cask 'backblaze'
 cask 'carbon-copy-cloner'
 cask 'caprine'
 cask 'coderunner'
@@ -90,6 +88,7 @@ cask 'qlstephen'
 cask 'scrivener'
 cask 'signal'
 cask 'slack'
+cask 'sonos'
 cask 'soundsource'
 cask 'sourcetree'
 cask 'steam'
@@ -120,7 +119,6 @@ mas 'Spect', id: 1409975750
 mas 'BitPerfect', id: 455545700
 mas 'Jump Desktop', id: 524141863
 mas 'GarageBand', id: 682658836
-#mas 'WiFi Explorer', id: 494803304
 mas 'Marked 2', id: 890031187
 mas 'Tweetbot', id: 557168941
 mas 'Sugarmate Glance', id: 1207352056
