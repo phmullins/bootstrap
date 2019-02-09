@@ -1,3 +1,9 @@
+brew 'arping'
+brew 'awscli'
+
+cask 'backblaze'
 cask 'flume'
 cask 'soda-player'
 cask 'xit'
+
+mas 'WiFi Explorer', id: 494803304
