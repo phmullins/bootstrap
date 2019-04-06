@@ -67,15 +67,15 @@ cask 'iterm2'
 cask 'keka'
 cask 'kindle'
 cask 'keybase'
-cask 'kindlegen'
+#cask 'kindlegen'
 cask 'lastfm' 
 cask 'ledger-live'
 cask 'liteicon'
-cask 'homebrew/cask-drivers/logitech-myharmony'
-cask 'logitech-options'
+#cask 'homebrew/cask-drivers/logitech-myharmony'
+#cask 'logitech-options'
 cask 'macupdate'
 cask 'makemkv'
-cask 'microsoft-teams'
+#cask 'microsoft-teams'
 cask 'monolingual'
 cask 'mweb'
 cask 'namechanger'
@@ -83,14 +83,14 @@ cask 'notion'
 cask 'numi'
 cask 'omnifocus'
 cask 'omnigraffle'
-cask 'omnioutliner'
+#cask 'omnioutliner'
 cask 'openemu'
 cask 'plex-media-player'
 cask 'powershell'
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen'
-cask 'qtpass'
+#cask 'qtpass'
 cask 'scrivener'
 cask 'signal'
 cask 'slack'
@@ -125,7 +125,7 @@ mas 'TrashMe', id: 443126292
 mas 'iA Writer', id: 775737590
 mas 'Spect', id: 1409975750
 mas 'BitPerfect', id: 455545700
-mas 'Jump Desktop', id: 524141863
+was 'Jump Desktop', id: 524141863
 mas 'GarageBand', id: 682658836
 mas 'Marked 2', id: 890031187
 mas 'Tweetbot', id: 557168941
