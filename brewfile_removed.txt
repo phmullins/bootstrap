@@ -1,9 +1,25 @@
 brew 'arping'
 brew 'awscli'
+brew 'docker-compose'
+brew 'balenaetcher'
+brew 'pass'
+brew 'ruby'
+
 
 cask 'backblaze'
+cask 'docker'
 cask 'flume'
 cask 'soda-player'
 cask 'xit'
+cask 'homebrew/cask-drivers/logitech-myharmony'
+cask 'logitech-options'
+cask 'macupdate'
+cask 'microsoft-teams'
+cask 'kindlegen'
+cask 'powershell'
+cask 'qtpass'
+cask 'signal'
+cask 'slack'
+
 
 mas 'WiFi Explorer', id: 494803304
