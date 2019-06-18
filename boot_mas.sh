@@ -43,3 +43,28 @@ declare -a apps=(
 
 mas install --force "${apps[@]}"
 mas upgrade
+
+mas 'Byword', id: 420212497
+mas 'Disk Aid', id: 1007358832
+mas 'Keynote', id: 409183694
+mas 'Tweetbot', id: 1384080005
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Pixave', id: 924891282
+mas 'Pixelmator', id: 407963104
+mas 'PMenu', id: 1241716354
+mas 'Reeder', id: 880001334
+mas 'TrashMe', id: 443126292
+mas 'iA Writer', id: 775737590
+mas 'Spect', id: 1409975750
+mas 'BitPerfect', id: 455545700
+was 'Jump Desktop', id: 524141863
+#mas 'GarageBand', id: 682658836
+mas 'Marked 2', id: 890031187
+mas 'Tweetbot', id: 557168941
+mas 'Sugarmate Glance', id: 1207352056
+mas 'iMovie', id: 408981434
+mas 'Day One', id: 1055511498
+#mas 'Xcode', id: 497799835
+mas 'MetaMovie', id: 511114225
+mas 'SnippetsLab', id: 1006087419
