@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-# Install Homebrew Applications
+## Install Homebrew Applications
 brew 'ansible'
 brew 'bash'
 brew 'bat'
