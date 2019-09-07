@@ -18,3 +18,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 echo " - Graphics: Disabled send and reply animations in Mail.app."
 defaults write com.apple.mail DisableReplyAnimations -bool true
 defaults write com.apple.mail DisableSendAnimations -bool true
+
+echo " - Graphics: Change screen shot format from .PNG to .JPG."
+defaults write com.apple.screencapture type jpg
