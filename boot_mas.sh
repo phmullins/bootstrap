@@ -21,33 +21,34 @@ fi
 
 # List of apps to be installed. Use MAS to determine app numbers.
 declare -a apps=(
-	455545700  # BitPerfect
+	455545700  # BitPerfect (3.1.2)
 	420212497  # Byword (2.7)
-	1055511498 # Day One
-	455970963  # Disk Doctor (3.6)
-	686428787  # Duplicate Detective
-	490152466  # iBooks Author (2.5)
-	408981434  # iMovie
-	775737590  # iA Writer
-	524141863  # Jump Desktop
-	1142151959 # JustFocus (1.3.3)
+	1287239339 # ColorSlurp (2.1.1)
+	1055511498 # Day One (4.2.0)
+	1007358832 # Disk Aid (1.92)
+	1435957248 # Drafts (15.0)
+	490152466  # iBooks Author (2.6.1)
+	408981434  # iMovie (10.1.13)
+	775737590  # iA Writer (5.2.8)
+	524141863  # Jump Desktop (8.3.11)
 	409183694  # Keynote (7.0.5)
-	624884154  # Lingo (2.0.5)
 	890031187  # Marked 2 (2.5.6)
-	511114225  # MetaMovie
+	1450757574 # Mastonaut (1.2.2)
 	409203825  # Numbers (4.0.5)
 	409201541  # Pages (6.0.5)
 	924891282  # Pixave (2.1.4)
 	407963104  # Pixelmator (3.5.1)
-	1241716354 # PMenu
-	880001334  # Reeder
-	883878097  # Server (5.2)
-	1006087419 # SnippetsLab
-	1409975750 # Spect
-	1207352056 # Sugarmate Glance
+	1289583905 # Pixelmator Pro (1.4.1)	
+	1241716354 # PMenu (2.2)
+	1449412482 # Reeder (4.1.6)
+	883878097  # Server (5.9)
+	1006087419 # SnippetsLab (1.9.2)
+	1409975750 # Spect (1.4.5)
+	1207352056 # Sugarmate Glance (2.0.8)
 	443126292  # TrashMe (2.1.14)
-	557168941  # Tweetbot (2.4.4)
-	497799835  # Xcode (8.1)
+	1384080005 # Tweetbot (3.3.2)
+	497799835  # Xcode (11.1)
+	
 )
 
 mas install --force "${apps[@]}"

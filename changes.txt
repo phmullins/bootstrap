@@ -1,0 +1,65 @@
+------------
+v0.2.9
+------------
+
+## Added
+
+- Added "brew tap homebrew/cask-drivers" to boot_homebrew.sh
+- Added Pixelmator Pro (1.4.1)
+- Added Mastonaut (1.2.2)
+- Added ColorSlurp (2.1.1)
+- Added Drafts (15.0)
+- Added Reeder (4.1.6)
+- Added Tweetbot (3.3.2)
+- Added Disk Aid (1.92)
+- Added PMenu (2.2)
+
+## Removed
+
+- Removed dnscrypt-proxy
+- Removed swiftlint
+- Removed arq-cloud-backup
+- Removed sip
+- Removed Disk Doctor (3.6)
+- Removed Duplicate Detective
+- Removed JustFocus (1.3.3)
+- Removed MetaMovie
+- Removed Lingo (2.0.5)
+- Removed Tweetbot 2
+
+## Fixed
+
+- Switched "brew tap cask-room/fonts" to "brew tap homebrew/cask-fonts"
+- Fixed font-hack
+- Fixed font-ia-writer-duospace
+- Fixed font-ibm-plex
+- Fixed font-mononoki
+- Fixed sonos
+- Fixed vscode
+
+------------
+v0.2.8
+------------
+
+## Removed
+
+- Removed arping
+- Removed awscli
+- Removed docker-compose
+- Removed balenaetcher
+- Removed pass
+- Removed ruby
+- Removed backblaze
+- Removed flume
+- Removed soda-player
+- Removed xit
+- Removed homebrew/cask-drivers/logitech-myharmony
+- Removed logitech-options
+- Removed macupdate
+- Removed microsoft-teams
+- Removed kindlegen
+- Removed powershell
+- Removed qtpass
+- Removed signal
+- Removed slack
+

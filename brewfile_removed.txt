@@ -22,4 +22,10 @@ cask 'signal'
 cask 'slack'
 
 
-mas 'WiFi Explorer', id: 494803304
+mas 494803304  # WiFi Explorer
+mas 455970963  # Disk Doctor (3.6)
+mas 686428787  # Duplicate Detective
+mas 1142151959 # JustFocus (1.3.3)
+mas 511114225  # MetaMovie
+mas 624884154  # Lingo (2.0.5)
+

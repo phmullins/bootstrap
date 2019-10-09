@@ -2,14 +2,14 @@
 
 # BASH script used to bootstrap a macOS machine.
 # Author: Patrick Mullins (pmullins11@mac.com)
-# Last update: October 29th, 2016
+# Last update: October 9th, 2019
 
 # Clear the Terminal screen
 clear
 
 # Define variables
 BOOTSTRAP_ROOT=$(pwd)
-declare version='0.2.8'
+declare version='0.2.9'
 
 # Display version banner
 echo "=================================="

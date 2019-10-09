@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 ## Install Homebrew Applications
+
 brew 'ansible'
 brew 'bash'
 brew 'bat'
@@ -8,7 +9,6 @@ brew 'caddy'
 brew 'cmake'
 brew 'colordiff'
 brew 'coreutils'
-brew 'dnscrypt-proxy'
 brew 'docker-compose'
 brew 'exa'
 brew 'fd'
@@ -41,21 +41,21 @@ brew 'tree'
 brew 'wget'
 brew 'youtube-dl'
 
-# Install Programming Languages
+## Install Programming Languages
 
 brew 'elixir'
 brew 'go'
 brew 'newlisp'
 brew 'rust'
 
-# Install Homebrew Fonts
+## Install Homebrew Fonts
 
 cask 'font-ibm-plex'
 cask 'font-hack'
 cask 'font-ia-writer-duospace'
 cask 'font-mononoki'
 
-# Install Homebrew Cask Applications
+## Install Homebrew Cask Applications
 
 cask '1password'
 cask 'alfred'
@@ -109,7 +109,6 @@ cask 'qlmarkdown'
 cask 'qlstephen'
 cask 'scrivener'
 cask 'sequel-pro'
-cask 'sip'
 cask 'softmaker-freeoffice'
 cask 'sonos'
 cask 'soundsource'
@@ -130,7 +129,7 @@ cask 'xee'
 cask 'xld'
 cask 'xquartz'
 
-# Install Programming Language Casks
+## Install Programming Language Casks
 
 cask 'julia'
 cask 'racket'
