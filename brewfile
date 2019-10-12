@@ -38,6 +38,7 @@ brew 'terraform'
 brew 'testdisk'
 brew 'tldr'
 brew 'tree'
+brew 'vcsh'
 brew 'wget'
 brew 'youtube-dl'
 
