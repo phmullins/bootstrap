@@ -60,11 +60,11 @@ brew 'rust'
 
 ## Install Homebrew Fonts
 
+cask 'font-cascadia'
 cask 'font-fira-code'
 cask 'font-ibm-plex'
 cask 'font-hack'
 cask 'font-ia-writer-duospace'
-cask 'font-mononoki'
 
 ## Install Homebrew Cask Applications
 
