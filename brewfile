@@ -47,6 +47,7 @@ brew 'tree'
 brew 'vcsh'
 brew 'wget'
 brew 'youtube-dl'
+brew 'zola'
 
 ## Install Programming Languages
 
