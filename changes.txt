@@ -1,4 +1,37 @@
 ------------
+v0.3.0
+------------
+
+## Added
+
+blackhole
+kode54-cog
+mark-text
+multipass
+softmaker-freeoffice
+speedtest
+
+## Removed
+
+arq
+arq-cloud-backup
+battle-net
+deezer
+elixir
+go
+julia
+racket
+lastfm
+ledger-live
+sequel-pro
+signal
+speedtest_cli
+swiftlint
+font-cascadia
+font-fira-code
+font-ibm-plex
+
+------------
 v0.2.9
 ------------
 
