@@ -60,6 +60,7 @@ brew 'rust'
 
 cask 'font-hack'
 cask 'font-ia-writer-duospace'
+cask 'font-open-sans'
 
 ## Install Homebrew Cask Applications
 
