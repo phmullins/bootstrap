@@ -9,7 +9,7 @@ clear
 
 # Define variables
 BOOTSTRAP_ROOT=$(pwd)
-declare version='0.2.9'
+declare version='0.3.1'
 
 # Display version banner
 echo "=================================="
