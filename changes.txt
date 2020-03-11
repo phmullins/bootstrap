@@ -1,16 +1,40 @@
 ------------
+v0.3.2
+------------
+
+## Added
+
+- Added bluetoothconnector (brew)
+- Added fish (brew)
+- Added httpie (brew)
+- Added metamovie (mas)
+- Added mosh (brew)
+- Added pocket (mas)
+- Added pwgen (brew)
+- Added logitech-options (cask)
+- Added reachable (brew)
+- Added rubberband (brew)
+
+## Removed
+
+- Removed malwarebytes (cask)
+- Removed sequel-pro (cask)
+
+------------
 v0.3.1
 ------------
 
 ## Added
 
-- font-open-sans
-- malwarebytes
-- rectangle
+- Added carthage (brew)
+- Added darksky-weather (brew)
+- Added font-open-sans
+- Added malwarebytes (cask)
+- Added rectangle (cask)
 
 ## Removed
 
-- font-ia-writer-duospace
+- Removed font-ia-writer-duospace
 
 ------------
 v0.3.0
@@ -18,32 +42,33 @@ v0.3.0
 
 ## Added
 
-- blackhole
-- kode54-cog
-- mark-text
-- multipass
-- softmaker-freeoffice
-- speedtest
+- Added blackhole (brew)
+- Added cakebrew
+- Added kode54-cog
+- Added mark-text
+- Added multipass
+- Added softmaker-freeoffice
+- Added speedtest
 
 ## Removed
 
-- arq
-- arq-cloud-backup
-- battle-net
-- deezer
-- elixir
-- go
-- julia
-- racket
-- lastfm
-- ledger-live
-- sequel-pro
-- signal
-- speedtest_cli
-- swiftlint
-- font-cascadia
-- font-fira-code
-- font-ibm-plex
+- Removed arq
+- Removed arq-cloud-backup
+- Removed battle-net
+- Removed deezer
+- Removed elixir
+- Removed go
+- Removed julia
+- Removed racket
+- Removed lastfm
+- Removed ledger-live
+- Removed sequel-pro
+- Removed signal
+- Removed speedtest_cli
+- Removed swiftlint
+- Removed font-cascadia
+- Removed font-fira-code
+- Removed font-ibm-plex
 
 ------------
 v0.2.9
