@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo " - Time Machine: Prevent Time Machine from prompting to use new hard drives as backup volume."
+# Time Machine: Prevent Time Machine from prompting to use new hard drives as backup volume.
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-echo " - Time Machine: Disable local Time Machine snapshots."
+# Time Machine: Disable local Time Machine snapshots.
 sudo tmutil disablelocal
