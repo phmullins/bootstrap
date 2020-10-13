@@ -21,6 +21,9 @@ fi
 
 # List of apps to be installed. Use MAS to determine app numbers.
 declare -a apps=(
+	634148309  # Logic Pro X (10.5.1)
+	424389933  # Final Cut Pro (10.4.10)
+	1037126344 # Apple Configurator 2 (2.13.1)
 	455545700  # BitPerfect (3.1.2)
 	420212497  # Byword (2.7)
 	1287239339 # ColorSlurp (2.1.1)
@@ -40,6 +43,7 @@ declare -a apps=(
 	924891282  # Pixave (2.1.4)
 	407963104  # Pixelmator (3.5.1)
 	1289583905 # Pixelmator Pro (1.4.1)	
+	1496833156 # Playgrounds (3.3.1)
 	1241716354 # PMenu (2.2)
 	568494494  # Pocket (1.8.5)
 	1449412482 # Reeder (4.1.6)
