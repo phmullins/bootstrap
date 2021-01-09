@@ -1,5 +1,9 @@
 cask_args appdir: '/Applications'
 
+## Install Plan 9 Applications
+
+brew 'rc'
+
 ## Install Homebrew Applications
 
 brew 'ansible'
