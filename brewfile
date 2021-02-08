@@ -103,6 +103,11 @@ brew 'sd'
 cask 'tealdeer'
 brew 'zenith'
 
+## Install Color Apps
+
+cask 'homebrew/cask/sip'
+cask 'homebrew/cask/couleurs'
+
 ## Install Homebrew Cask Applications
 
 cask '1password'
